@@ -1,0 +1,6 @@
+-- Replace the Scheme with your own Schema! --
+SET SCHEMA "I045664";
+DROP FULLTEXT INDEX "TWEETS_FTI";
+Create FullText Index "TWEETS_FTI" On "TWEETS"("TEXT")
+TEXT ANALYSIS ON
+CONFIGURATION 'EXTRACTION_CORE'; 
