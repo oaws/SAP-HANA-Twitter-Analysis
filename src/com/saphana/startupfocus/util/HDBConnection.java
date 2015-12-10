@@ -10,9 +10,9 @@ public class HDBConnection {
 		try {
 		    Class.forName("com.sap.db.jdbc.Driver");
 
-		    String url = "jdbc:sap://ushdc8514.us.deloitte.com:30015/OSIDDIQUI";
-		    String user = "OSIDDIQUI";
-		    String password = "Purple2014";
+		    String url = "####";
+		    String user = "####";
+		    String password = "####";
 
 		    Connection cn = java.sql.DriverManager.getConnection(url, user, password);
 
